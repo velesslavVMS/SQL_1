@@ -28,7 +28,8 @@ SELECT * FROM mobiles WHERE Manufacturer = "Samsung";
 
 
 /*4.3. Товары, в которых есть ЦИФРЫ*/   
-/*НЕ ЗНАЮ КАК РЕШАТЬ. Пробовал через операторы  OR  и/или ||, но у меня не получилось*/
+
+SELECT * FROM mobiles WHERE ProductName LIKE "%8%" OR ProductName LIKE "%9%" OR ProductName LIKE "%2%";
 
 
 /*4.4. Товары, в которых есть ЦИФРА "8"*/
